@@ -1,0 +1,63 @@
+.FormContainer {
+  margin-bottom: 2rem;
+}
+
+.Form {
+  margin-top: 1.3rem;
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+
+.FormInput {
+  flex: 1;
+  width: 17.813rem;
+  height: 3rem;
+  border: 1px solid var(--grayColor);
+  background-color: #fff;
+  padding: 1px 10px;
+  outline: none;
+  color: #000;
+}
+
+.FormInputAuthor {
+  width: 17.813rem;
+  height: 3rem;
+  border: 1px solid var(--grayColor);
+  background-color: #fff;
+  padding: 1px 10px;
+  outline: none;
+  color: #000;
+}
+
+.FormTitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.FormCategory {
+  width: 17.813rem;
+  height: 3rem;
+  border: 1px solid var(--grayColor);
+  background-color: #fff;
+  padding: 1px 10px;
+  outline: none;
+  color: #000;
+}
+
+.FormBtn {
+  font-family: RobotoSlab, sans-serif;
+  padding: 0.88rem 2rem;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--primaryColor);
+}

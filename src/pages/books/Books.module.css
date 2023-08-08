@@ -1,0 +1,18 @@
+.BookPage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.PageContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Spacer {
+  margin: 3rem 0 2.5rem;
+  height: 2px;
+  background-color: var(--grayColor);
+}
