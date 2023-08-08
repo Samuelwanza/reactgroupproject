@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <h2><b>Awesome Books</b></h2>
+  <h2><b>React Group Project</b></h2>
 
 </div>
 
@@ -25,9 +25,9 @@
 - [📝 License](#license)
 
 
-# 📖 Awesome Books 
+# 📖 React Group Project
 
-This is a simple SPA react application that allows users to browse books by category. 
+This project aims to manage the operations of spacex
 
 
 ## 🛠️ Built With <a name="built-with"></a>
@@ -78,9 +78,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Awesome-Book
+  cd reactgroupproject
 
-  git clone https://github.com/habitoz/awesome-book-react.git
+  git clone https://github.com/Samuelwanza/reactgroupproject.git
 
 ```
 
@@ -125,6 +125,12 @@ To run linter tests, run the following command:
 - GitHub: [@habitoz](https://github.com/habitoz)
 - Twitter: [@habitoz](https://twitter.com/habitoz)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/haben-mehari-593531140/)
+
+👤 **Samuel Wanza**
+
+- GitHub: [@Samuelwanza](https://github.com/Samuelwanza)
+- Twitter: [@Samuelwanza](https://twitter.com/samuelmunguti9)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munguti-8a257a1bb/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
