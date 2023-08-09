@@ -1,7 +1,16 @@
-/* eslint-disable linebreak-style */
-import React from "react";
-import { NavLink } from "react-router-dom";
-import Style from "./Header.module.css";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Style from './Header.module.css';
+
+function getLinkClassName({ isActive, isPending }) {
+  let className = Style.Link;
+
+  if (!isPending) {
+    className = isActive ? `${className} ${Style.active}` : className;
+  }
+
+  return className;
+}
 
 export default function Header() {
   return (
@@ -16,35 +25,17 @@ export default function Header() {
       </NavLink>
       <ul className={`${Style.NavItems}`}>
         <li>
-          <NavLink
-            className={({ isActive, isPending }) =>
-              isPending ? `${Style.Link}` : isActive ? `${Style.Link} ${Style.active}` : `${Style.Link}`
-            }
-            exact
-            to="/rockets"
-          >
+          <NavLink className={getLinkClassName} exact to="/rockets">
             Rockets
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className={({ isActive, isPending }) =>
-            isPending ? `${Style.Link}` : isActive ? `${Style.Link} ${Style.active}` : `${Style.Link}`
-          }
-            exact
-            to="/missions"
-          >
+          <NavLink className={getLinkClassName} exact to="/missions">
             Missions
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className={({ isActive, isPending }) =>
-            isPending ? `${Style.Link}` : isActive ? `${Style.Link} ${Style.active}` : `${Style.Link}`
-          }
-            exact
-            to="/profile"
-          >
+          <NavLink className={getLinkClassName} exact to="/profile">
             My Profile
           </NavLink>
         </li>
