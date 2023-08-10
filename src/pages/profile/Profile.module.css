@@ -1,0 +1,25 @@
+.PageContainer {
+  display: flex;
+  gap: 80px;
+  align-items: start;
+  font-family: Montserrat, 'Times New Roman', Times, serif;
+}
+
+.MyMissionContainer {
+  flex: 1;
+}
+
+.MyRocketsContainer {
+  flex: 1;
+}
+
+.ListContainer {
+  list-style: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 4px;
+}
+
+.ListItem {
+  border-bottom: 1px solid var(--borderColor);
+  padding: 1.2rem 1rem;
+}
