@@ -14,6 +14,7 @@ const initialState = {
   loading: false,
   rocketsInProcess: null,
   error: null,
+  fetched: false,
 };
 
 const rocketsSlice = createSlice({
@@ -43,6 +44,7 @@ const rocketsSlice = createSlice({
         state.rockets = action.payload;
         state.loading = false;
         state.error = null;
+        state.fetched = true;
       })
       .addCase(fetchRockets.rejected, (state) => {
         state.loading = false;
