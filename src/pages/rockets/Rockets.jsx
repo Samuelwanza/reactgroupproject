@@ -6,6 +6,7 @@ import {
   leaveRockets,
   reserveRockets,
 } from '../../redux/feature/rockets/rocketsSlice';
+import style from './Rockets.module.css';
 
 const Rockets = () => {
   const { rockets, loading, fetched } = useSelector((state) => state.rockets);
@@ -20,19 +21,20 @@ const Rockets = () => {
   }, []);
 
   return (
-    <div>
+    <div className={style.rocketContainer}>
       {loading && <Loader />}
       {!loading
         && rockets.map((rocket) => (
-          <div key={rocket.id}>
+          <div key={rocket.id} className={style.rocketCard}>
             <img src={rocket.flickr_images} alt="rocket" srcSet="" />
-            <div>
-              <h2>{rocket.title}</h2>
+            <div className={style.rightSection}>
+              <h2>{rocket.rocket_name}</h2>
               <p>
                 {rocket.reserved ? <span>reserved</span> : ''}
                 {rocket.description}
               </p>
               <button
+                className={rocket.reserved ? style.reserved : style.button}
                 type="button"
                 onClick={
                   rocket.reserved
