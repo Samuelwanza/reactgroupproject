@@ -11,7 +11,7 @@ export default function Header() {
         Space X
       </NavLink>
       <ul className="NavItems">
-        <li><NavLink className="Link" to="/rockets">Rockets</NavLink></li>
+        <li><NavLink className="Link" to="/">Rockets</NavLink></li>
         <li><NavLink className="Link" to="/missions">Missions</NavLink></li>
         <li><NavLink className="Link" to="/profile">My Profile</NavLink></li>
       </ul>
