@@ -5,7 +5,7 @@ import rocketsSlice from './feature/rockets/rocketsSlice';
 const store = configureStore({
   reducer: {
     mission: missionSlice,
-    rockets:rocketsSlice,
+    rockets: rocketsSlice,
   },
 });
 
