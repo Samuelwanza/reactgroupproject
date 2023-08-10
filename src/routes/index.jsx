@@ -1,10 +1,10 @@
-// import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import MissionsPage from '../pages/missions/missions';
 
 const routes = () => (
-  <div />
-  // <Routes>
-  //   <Route path="/" element={<Books />} />
-  // </Routes>
+  <Routes>
+    <Route path="/missions" element={<MissionsPage />} />
+  </Routes>
 );
 
 export default routes;
