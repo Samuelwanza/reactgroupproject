@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Style from './Header.module.css';
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/planet.png';
+import './Header.css';
 
 export default function Header() {
   return (
-    <nav className={`${Style.Nav}`}>
-      <Link className={`${Style.Link} ${Style.AppLogo}`} to="/">
+    <nav className="Nav">
+      <NavLink className="Link AppLogo" to="/">
         <img width="40px" alt="" srcSet={Logo} />
         Space X
-      </Link>
-      <ul className={`${Style.NavItems}`}>
-        <li><Link className={`${Style.Link}`} to="/rockets">Rockets</Link></li>
-        <li><Link className={`${Style.Link}`} to="/missions">Missions</Link></li>
-        <li><Link className={`${Style.Link}`} to="/profile">My Profile</Link></li>
+      </NavLink>
+      <ul className="NavItems">
+        <li><NavLink className="Link" to="/rockets">Rockets</NavLink></li>
+        <li><NavLink className="Link" to="/missions">Missions</NavLink></li>
+        <li><NavLink className="Link" to="/profile">My Profile</NavLink></li>
       </ul>
     </nav>
   );
