@@ -1,4 +1,3 @@
-
 <div align="center">
 
   <h2><b>React Group Project</b></h2>
@@ -24,16 +23,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📖 React Group Project
 
-This project aims to manage the operations of spacex
-
+This project aims to manage the operations of space x
 
 ## 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>HTML</summary>
@@ -56,14 +52,13 @@ This project aims to manage the operations of spacex
   </ul>
 </details>
 
+### Key Features
 
-### Key Features 
-
-- *List books and their ratings*
+- _List books and their ratings_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started 
+## 💻 Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -71,8 +66,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-* node js
-* any code editor but mostly use Vs Code and Sublime Text.
+- node js
+- any code editor but mostly use Vs Code and Sublime Text.
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -119,7 +115,6 @@ To run linter tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Haben Mehari**
 
 - GitHub: [@habitoz](https://github.com/habitoz)
@@ -132,10 +127,7 @@ To run linter tests, run the following command:
 - Twitter: [@Samuelwanza](https://twitter.com/samuelmunguti9)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munguti-8a257a1bb/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -143,8 +135,6 @@ To run linter tests, run the following command:
 - **Improve CSS Styles**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -154,25 +144,20 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
 
 We would like to thank Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License
+
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
