@@ -4,6 +4,9 @@
   font-weight: bold;
   letter-spacing: normal !important;
   color: var(--primaryColor) !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .Link {
@@ -15,7 +18,7 @@
 }
 
 .Nav {
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  padding: 1rem 6.188rem 1rem 6.25rem;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -29,4 +32,8 @@
   align-items: center;
   gap: 2.563rem;
   list-style: none;
+}
+
+a.active {
+  color: var(--primaryColor);
 }

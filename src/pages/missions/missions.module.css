@@ -1,0 +1,55 @@
+.Table {
+  border-collapse: collapse;
+}
+
+.Table,
+.TR,
+.TD {
+  border: 1px solid;
+}
+
+.TR:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+.TD {
+  padding: 10px;
+}
+
+.ActiveBadge {
+  padding: 4px 8px;
+  background-color: var(--primaryColor);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+.InActiveBadge {
+  padding: 4px 8px;
+  background-color: #6d757d;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+.JoinMissionBtn {
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  white-space: nowrap;
+  padding: 8px 10px;
+}
+
+.LeaveMissionBtn {
+  border: 1px solid red;
+  color: red;
+  background: transparent;
+  white-space: nowrap;
+  padding: 8px 10px;
+}

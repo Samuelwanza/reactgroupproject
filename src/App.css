@@ -8,16 +8,17 @@
 
 .App {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
   background-color: #fafafa;
   flex-direction: column;
 }
 
 .Main {
-  padding: 0 6.25rem;
+  padding: 1rem 6.25rem 2rem;
   flex: 1;
-  margin-top: 2.375rem;
+  margin-top: 1.375rem;
 }
 
 .span-2-col {
