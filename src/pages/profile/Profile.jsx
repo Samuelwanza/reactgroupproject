@@ -6,6 +6,7 @@ export default function Profile() {
   const missions = useSelector(
     (state) => state.mission.missions.filter((mission) => mission.reserved),
   );
+  const rockets = useSelector((state) => state.rockets.rockets.filter((rocket) => rocket.reserved));
 
   return (
     <div className={`${Style.PageContainer}`}>
@@ -32,6 +33,25 @@ export default function Profile() {
       </div>
       <div className={`${Style.MyRocketsContainer}`}>
         <h3>My Rockets</h3>
+        <div style={{ marginTop: '20px' }}>
+          {
+            rockets.length ? (
+              <ul className={`${Style.ListContainer}`}>
+                {
+                rockets.map((rocket) => (
+                  <li className={`${Style.ListItem}`} key={rocket.id}>{rocket.rocket_name}</li>
+                ))
+            }
+              </ul>
+            ) : ''
+         }
+          {
+            !rockets.length && (
+            <p style={{ color: 'red' }}>No reserved rockets</p>
+            )
+         }
+        </div>
+
       </div>
     </div>
   );
