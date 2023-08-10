@@ -28,7 +28,10 @@ const Rockets = () => {
             <img src={rocket.flickr_images} alt="rocket" srcSet="" />
             <div>
               <h2>{rocket.title}</h2>
-              <p>{rocket.description}</p>
+              <p>
+                {rocket.reserved ? <span>reserved</span> : ''}
+                {rocket.description}
+              </p>
               <button
                 type="button"
                 onClick={
